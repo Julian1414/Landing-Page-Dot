@@ -1,3 +1,79 @@
-h1 {
-	color: blue;
+.container {
+	width: 1170px;
+	height: 100px;
+	bordr: 2px solid red;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+
+.row {
+	display: flex;
+	justify-content: flex-start;
+	borde: 2px solid blue;
+	align-items: center;
+	height: 100px;
+}
+
+.col {
+	box-sizing: border-box;
+	padding-right: 8px;
+	padding-left: 8px;
+	/*border: 2px solid red;*/
+}
+
+
+.menu {
+	text-transform: uppercase;
+	/*borde: 2px solid green;*/
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu-link {
+	text-decoration: none;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;;
+	margin-left: 27px;
+	
+}
+
+.col-1 {flex-basis: 8.3333%;
+}
+
+.col-2 {flex-basis: 16.6666%;
+}
+
+.col-3 {flex-basis: 24.9999%;
+}
+
+.col-4 {flex-basis: 33.3333%;
+}
+
+.col-5 {flex-basis: 41.6665%;
+}
+
+.col-6 {flex-basis: 49.9998%;
+}
+
+.col-7 {flex-basis: 58.3331%;
+}
+
+.col-8 {flex-basis: 66.6664%;
+}
+
+.col-9 {flex-basis: 74.9997%;
+}
+
+.col-10 {flex-basis: 83.3333%;
+
+}
+
+.col-11 {flex-basis: 91.6663%;
+}
+
+.col-12 {flex-basis: 100%;
 }
