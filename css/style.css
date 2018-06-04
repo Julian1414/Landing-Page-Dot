@@ -25,18 +25,22 @@ body {
 }
 
 .text-tittle2 {
-     font-size: 26px;
-     font-weight: bold;
+    font-size: 26px;
+    font-weight: bold;
     text-transform: uppercase;
     margin: 0;
     padding-top: 3px;
+}
+
+.wix{
+    height: 50px;
+    margin-top: 80px;
 }
 
 .cw {
     display: flex;
     /*border:2px solid red;*/
     justify-content: center;
-    
 }
 
 cw img {
@@ -52,6 +56,11 @@ cw img {
     text-align: center;
 }
 
+.bgfeature {
+    height: 375px;
+    background-color: #f2f2f2;
+}
+
 .author {
     font-size: 18px;
     font-weight: bold;
@@ -61,10 +70,10 @@ cw img {
 }
 
 .ux {
- color: #816767;
- margin-top: 0px;
- opacity: 0.5;
- margin-bottom: 100px;
+    color: #816767;
+    margin-top: 0px;
+    opacity: 0.5;
+    margin-bottom: 100px;
 }
 
 .circle {
@@ -133,6 +142,7 @@ ol li {
     font-size: 30px;
     text-transform: uppercase;
     margin: 0;
+    padding-top: 3px;
     /*border: 2px solid red;*/
 }
 
@@ -159,23 +169,39 @@ ol li {
 }
 
 .pr-tittle {
-   padding-left: 50px;
+    padding-left: 50px;
 }
 
 .lucky {
-   text-transform: uppercase;
+    text-transform: uppercase;
     padding-left: 0px;
-
 }
+
 .promise {
     text-transform: uppercase;
     padding-left: 40px;
+}
+
+.feat {
+    text-transform: uppercase;
+    padding-left: 0px;
 }
 
 .tittle2 {
     display: block;
     margin-top: 100px;
     padding-top: 3px;
+}
+
+.tittle3 {
+    display: block;
+    align-items: center;
+    margin-top: 130px;
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    /*border: 2px solid green;*/
+    padding-left: 8px;
 }
 
 .features {
