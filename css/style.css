@@ -24,6 +24,67 @@ body {
     justify-content: center;
 }
 
+.text-tittle2 {
+     font-size: 26px;
+     font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 3px;
+}
+
+.cw {
+    display: flex;
+    /*border:2px solid red;*/
+    justify-content: center;
+    
+}
+
+cw img {
+    align-self: center;
+}
+
+.cw2 {
+    padding-top: 50px;
+    align-self: flex-end;
+}
+
+.cwtext {
+    text-align: center;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ux {
+ color: #816767;
+ margin-top: 0px;
+ opacity: 0.5;
+ margin-bottom: 100px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 2px solid black;
+    margin-top: 85px;
+    margin-left: 140px;
+    background-color: black;
+    opacity: 0.1;
+    margin-bottom: 45px;
+}
+
+.client {
+    color: #ff153d;
+    margin-right: 27px;
+    margin-left: -5px;
+}
+
 .col {
     box-sizing: border-box;
     padding-right: 8px;
@@ -32,12 +93,29 @@ body {
 }
 
 .list {
-    padding-left:8px;
+    padding-left: 8px;
+}
+
+.pr {
+    height: 360px;
+    background-image: url(../img/pr.png);
+    text-align: center;
+    padding-top: 270px;
+    /*border: 2px solid red;*/
+}
+
+
+.creative {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 ol li {
     margin: 10px;
 }
+
 .tittle-ben {
     color: #ff7684;
     margin-bottom: 25px;
@@ -46,15 +124,21 @@ ol li {
 .ben-text {
     margin-top: -12px;
 }
+
 .benefits {
     margin-bottom: 130px;
 }
-.text-tittle {
-	font-size: 30px;
-	text-transform: uppercase;
-	margin: 0;
-	/*border: 2px solid red;*/
 
+.text-tittle {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+    /*border: 2px solid red;*/
+}
+
+.footer_pr {
+    height: 100px;
+    background-color: #f2f2f2;
 }
 
 
@@ -64,20 +148,30 @@ ol li {
 }
 
 .tittle {
-  display: flex;
-  align-items: center;
-  margin-top: 130px;
-  background-image: url(../img/bg.png);
-  background-repeat: no-repeat;
-  height: 50px;
-  /*border: 2px solid green;*/
-  padding-left: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    /*border: 2px solid green;*/
+    padding-left: 8px;
 }
 
-.promise {
-  text-transform: uppercase;
-  padding-left: 40px;
+.pr-tittle {
+   padding-left: 50px;
 }
+
+.lucky {
+   text-transform: uppercase;
+    padding-left: 0px;
+
+}
+.promise {
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+
 .tittle2 {
     display: block;
     margin-top: 100px;
@@ -85,21 +179,21 @@ ol li {
 }
 
 .features {
-	text-align: center;
-	padding-top: 82px;
+    text-align: center;
+    padding-top: 82px;
     /*border: 2px solid red;*/
     margin-bottom: 100px;
 }
 
 .features h3 {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 .features p {
-	font-size: 14px;
-	line-height: 1.5;
-	padding-left: 20px;
-	padding-right: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .det-tittle {
@@ -109,7 +203,6 @@ ol li {
     padding-right: 130px;
     margin-top: 39px;
     margin-bottom: 30px;
-
 }
 
 .det-text {
@@ -117,17 +210,16 @@ ol li {
     margin-top: 5px;
     margin-bottom: 30px;
     /*border: 2px solid red;*/
-
 }
+
 .bg2 {
     height: 665px;
     background-color: #f2f2f2;
-
 }
 
 .product {
-	color: #ff153d;
-	margin-right: 29px;
+    color: #ff153d;
+    margin-right: 29px;
 }
 
 .backlogo {
@@ -164,7 +256,6 @@ ol li {
     text-align: center;
     vertical-align: center;
     line-height: 50px;
-
 }
 
 .button1:hover {
