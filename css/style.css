@@ -32,7 +32,7 @@ body {
     padding-top: 3px;
 }
 
-.wix{
+.wix {
     height: 50px;
     margin-top: 80px;
 }
@@ -87,6 +87,77 @@ cw img {
     opacity: 0.1;
     margin-bottom: 45px;
 }
+
+.logo2 {
+    align-self: flex-start;
+}
+
+.icons {
+    align-self: flex-start;
+}
+
+.colfooter {
+ width: 180%;
+}
+
+.leftend {
+    display: flex;
+    flex-flow: column;
+    padding-top: 180px;
+}
+.bgfooter {
+    width: 113%;
+    height: 580px;
+    background-image: url(../img/bgfooter.png);
+}
+
+.bgend {
+    height: 550px;
+    background-color: #f3dde1;
+}
+
+.get {
+    display: flex;
+    flex-flow: column;
+    padding-top: 170px;
+    padding-left: 290px;
+}
+
+.get-1 {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.get-2 {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.get-2 img {
+    align-self: center;
+    padding-bottom: 15px;
+
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 47px;
+}
+
+.bgbottom{
+    background-color: #f2f2f2;
+    height: 112px;
+}
+
+.get-text {
+    padding-left: 30px;
+    color: white;
+    margin-top: 0px;
+}
+
 
 .client {
     color: #ff153d;
@@ -307,9 +378,9 @@ ol li {
 }
 
 .form {
-   height: 53px;
-   width: 300px;
-   outline: none;
+    height: 53px;
+    width: 300px;
+    outline: none;
 }
 
 .button3 {
@@ -324,8 +395,8 @@ ol li {
     background-color: #ff1744;
     line-height: 52px;
     text-decoration: none;
-
 }
+
 .form-input {
     display: flex;
     justify-content: center;
