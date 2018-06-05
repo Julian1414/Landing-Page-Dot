@@ -348,6 +348,8 @@ ol li {
 }
 
 .textslider {
+    display: flex;
+    flex-flow: column;
     padding-left: 100px;
     padding-top: 134px;
 }
@@ -425,16 +427,25 @@ ol li {
     background-color: #f3dde1;
 }
 
+
 .header-slider {
     font-size: 48px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
+.asd {
+    height: 30px;
+    background-color: #f2f2f2;
+    align-items: flex-end;
+}
+
 .textsl {
+    color: #816767;
     font-size: 16px;
-    margin-top: 50px;
-    width: 395px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    width: 420px;
 }
 
 .slider1 {
@@ -442,6 +453,7 @@ ol li {
     height: 580px;
     background-image: url("../img/bslider2.png");
     background-repeat: no-repeat;
+    margin-top: 0px;
 }
 
 .menu {
