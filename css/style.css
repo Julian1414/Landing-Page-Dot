@@ -35,16 +35,15 @@ body {
     height: 50px;
     margin-top: 80px;
     justify-content: space-between;
-
 }
+
 .wix img {
-   align-self: center;
+    align-self: center;
 }
 
 .dr {
     width: 180px;
     height: inherit;
-
 }
 
 .cw {
@@ -102,17 +101,16 @@ cw img {
     align-self: flex-start;
 }
 
-.icon { 
+.icon {
     display: flex;
     flex-flow: row;
-
- }
+}
 
 .icon1 {
     width: 44px;
     height: 44px;
     border-radius: 22px;
-    border:1px solid white;
+    border: 1px solid white;
     background-color: #ffbfcc;
     background-image: url(../img/facebok.png);
     background-repeat: no-repeat;
@@ -127,19 +125,22 @@ cw img {
 .icon2 {
     background-image: url(../img/twitter.png);
 }
+
 .icon3 {
     background-image: url(../img/pinterest.png);
 }
+
 .icon4 {
     background-image: url(../img/v.png);
 }
+
 .icon5 {
     background-image: url(../img/g.png);
 }
 
 
 .colfooter {
- width: 180%;
+    width: 180%;
 }
 
 .leftend {
@@ -147,6 +148,7 @@ cw img {
     flex-flow: column;
     padding-top: 180px;
 }
+
 .bgfooter {
     height: 580px;
     background-image: url(../img/bgfooter.png);
@@ -174,6 +176,7 @@ cw img {
     font-weight: bold;
     padding-bottom: 20px;
 }
+
 .get-2 {
     display: flex;
     flex-flow: row;
@@ -183,7 +186,6 @@ cw img {
 .get-2 img {
     align-self: center;
     padding-bottom: 15px;
-
 }
 
 .footer-bottom {
@@ -191,7 +193,7 @@ cw img {
     padding-top: 47px;
 }
 
-.bgbottom{
+.bgbottom {
     background-color: #f2f2f2;
     height: 112px;
 }
@@ -438,7 +440,7 @@ ol li {
 }
 
 .button3 {
-/*    display: block;*/
+    /*    display: block;*/
     height: 53px;
     width: 120px;
     color: white;
@@ -509,6 +511,7 @@ ol li {
     margin-bottom: 0px;
     width: 420px;
 }
+
 .menu {
     text-transform: uppercase;
     display: flex;
