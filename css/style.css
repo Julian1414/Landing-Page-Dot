@@ -155,6 +155,7 @@ cw img {
     background-repeat: no-repeat;
     background-position: right;
     margin-bottom: -30px;
+    position: relative;
 }
 
 .bgend {
