@@ -21,18 +21,9 @@ body {
     justify-content: center;
 }
 
-.text-tittle2 {
-    font-size: 26px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0;
-    padding-top: 3px;
-}
-
 .wix {
     display: flex;
     flex-flow: row-reverse;
-    height: 50px;
     margin-top: 80px;
     justify-content: space-between;
 }
@@ -48,7 +39,6 @@ body {
 
 .cw {
     display: flex;
-    /*border:2px solid red;*/
     justify-content: center;
 }
 
@@ -224,9 +214,9 @@ cw img {
 }
 
 .pr {
-    height: 360px;
+
     text-align: center;
-    padding-top: 120px;
+    padding-top: 110px;
     /*border: 2px solid red;*/
 }
 
@@ -244,6 +234,10 @@ cw img {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
+}
+
+.colors {
+    margin-bottom: 20px;
 }
 
 ol li {
@@ -301,6 +295,7 @@ ol li {
 .tittle--w2 {
     background-image: url(../img/bg1.png);
     margin-top: 90px;
+    margin-left: 20px
 }
 
 .tittle--w3 {
@@ -311,20 +306,12 @@ ol li {
 .tittle--w4 {
     background-image: url(../img/bg2.png);
     margin-left: 15px;
+    margin-top: 90px;
 }
 
 .tittle--w5 {
     background-image: url(../img/bg3.png);
      margin-left: 65px;
-}
-
-
-
-
-
-
-.pr-tittle {
-    padding-left: 50px;
 }
 
 .lucky {
@@ -335,7 +322,7 @@ ol li {
 
 .promise {
     text-transform: uppercase;
-    padding-left: 40px;
+   text-align: center;
 }
 
 .feat {
@@ -354,37 +341,9 @@ ol li {
     padding-left: 48px;
 }
 
-
-.tittle2 {
-    margin-top: 100px;
-}
-
-.tittle3 {
-    display: block;
-    align-items: center;
-    margin-top: 130px;
-    background-image: url(../img/bg2.png);
-    background-repeat: no-repeat;
-    height: 50px;
-    /*border: 2px solid green;*/
-    padding-left: 8px;
-}
-
-.tittle4 {
-    display: block;
-    align-items: center;
-    margin-top: 130px;
-    background-image: url(../img/bg3.png);
-    background-repeat: no-repeat;
-    height: 50px;
-    /*border: 2px solid green;*/
-    padding-left: 8px;
-}
-
 .features {
     text-align: center;
     padding-top: 82px;
-    /*border: 2px solid red;*/
     margin-bottom: 100px;
 }
 
@@ -427,14 +386,11 @@ ol li {
 }
 
 .backlogo {
-    height: 100px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
 }
 
-.logo {
-    max-width: 100%;
-}
 
 .textslider {
     display: flex;
@@ -552,8 +508,7 @@ ol li {
     text-transform: uppercase;
     display: flex;
     justify-content: flex-end;
-    height: 100px;
-    align-items: center;
+    padding-top: 40px;
 }
 
 .menu-link {
