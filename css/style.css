@@ -28,6 +28,13 @@ body {
     justify-content: space-between;
 }
 
+.behance {
+    max-width: 15%;
+    max-height: 15%;
+
+
+}
+
 .wix img {
     align-self: center;
 }
@@ -311,7 +318,7 @@ ol li {
 
 .tittle--w5 {
     background-image: url(../img/bg3.png);
-     margin-left: 65px;
+    margin-left: 65px;
 }
 
 .lucky {
@@ -322,7 +329,7 @@ ol li {
 
 .promise {
     text-transform: uppercase;
-   text-align: center;
+    text-align: center;
 }
 
 .feat {
