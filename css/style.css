@@ -425,9 +425,7 @@ ol li {
 
 
 .textslider {
-    display: flex;
-    flex-flow: column;
-    padding-left: 100px;
+    text-align: center;
     padding-top: 134px;
 }
 
@@ -533,7 +531,7 @@ ol li {
     font-size: 16px;
     margin-top: 25px;
     margin-bottom: 0px;
-    width: 420px;
+    /*width: 420px;*/
 }
 
 .menu {
@@ -803,7 +801,9 @@ ol li {
 .col-lg-12 {
     flex-basis: 100%;
 }
-
+.textslider {
+    padding-left: 100px;
+    text-align: left;
 
 
     }
