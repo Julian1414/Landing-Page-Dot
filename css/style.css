@@ -27,23 +27,23 @@ body {
     flex-wrap: wrap;
 }
 
-.wix {
+.corp {
     display: flex;
-    flex-flow: row-reverse;
-    margin-top: 80px;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
+
+
 
 .behance {
-    max-width: 15%;
-    max-height: 15%;
+    width: 180px;
+    height: 36px;
+    background:url(../img/behance.png) no-repeat;
+    background-size: cover;
 }
 
-.wix img {
-    align-self: center;
-}
+
 
 .dr {
     width: 180px;
@@ -746,6 +746,9 @@ ol li {
 .col-md-12 {
     flex-basis: 100%;
 }
+.tittle-left {
+    text-align: left;
+}
 
 }
 
@@ -753,6 +756,53 @@ ol li {
     .container {
         width: 1170px; }
 
+ .col-lg-1 {
+    flex-basis: 8.3333%;
+}
+
+.col-lg-2 {
+    flex-basis: 16.6666%;
+}
+
+      .col-lg-3 {
+    flex-basis: 24.9999%;
+}
+
+.col-lg-4 {
+    flex-basis: 33.3333%;
+}
+
+.col-lg-5 {
+    flex-basis: 41.6665%;
+}
+
+.col-lg-6 {
+    flex-basis: 49.9998%;
+}
+
+.col-lg-7 {
+    flex-basis: 58.3331%;
+}
+
+.col-lg-8 {
+    flex-basis: 66.6664%;
+}
+
+.col-lg-9 {
+    flex-basis: 74.9997%;
+}
+
+.col-lg-10 {
+    flex-basis: 83.3333%;
+}
+
+.col-lg-11 {
+    flex-basis: 91.6663%;
+}
+
+.col-lg-12 {
+    flex-basis: 100%;
+}
 
 
 
